@@ -17,7 +17,6 @@ public class TextureViewActivity extends Activity implements TextureView.Surface
 
         mTextureView = new TextureView(this);
         mTextureView.setSurfaceTextureListener(this);
-
         setContentView(mTextureView);
     }
 
